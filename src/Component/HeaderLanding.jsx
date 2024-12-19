@@ -19,7 +19,7 @@ const HeaderLanding = () => {
       {/* Center Logo */}
       <div className="absolute left-1/2 transform -translate-x-1/2 flex items-center">
         <img
-          src="src/assets/Logo.png"
+          src="assets/Logo.png"
           alt="Ocean Guardian Logo"
           className="h-10 md:h-14"
         />
