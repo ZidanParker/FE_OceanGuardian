@@ -7,7 +7,7 @@ const Footer = () => {
                 
                 {/* Logo and description */}
                 <div className="flex flex-col items-center lg:items-center text-center lg:text-center mb-4">
-                    <img src="src/assets/Logo.png" alt="Ocean Guardian Logo" className="h-auto w-auto mb-4" />
+                    <img src="assets/Logo.png" alt="Ocean Guardian Logo" className="h-auto w-auto mb-4" />
                     <p className="max-w-xs">
                         Ocean Guardian - Sistem Pelaporan Sampah Laut dan Penangkapan Ikan Secara Illegal
                     </p>
