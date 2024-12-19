@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import logo from '../assets/logo.png';
 import dashboardIcon from '../assets/dashboard.png';
 import dokumentasiIcon from '../assets/dokumentasi.png';
 import helpIcon from '../assets/help.png';
@@ -42,7 +41,7 @@ const SidebarSuperAdmin = ({ isOpen, toggleSidebar, onLogoutNotification }) => {
         ✕
       </button>
       <div className="flex justify-center mb-6">
-        <img src={logo} alt="Logo" className="h-16" />
+        <img src="src/assets/Logo.png" alt="Logo" className="h-16" />
       </div>
       <nav className="flex flex-col space-y-4 flex-grow">
         <a href="/dashboardsuperadmin" className="flex items-center space-x-2 px-4 py-2 hover:bg-blue-600 rounded-md">
